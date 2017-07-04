@@ -1,0 +1,4 @@
+---- tunSpectrum_WL_High_DWDM Matches (3 in 2 files) ----
+Function.c (c:\users\ybc\desktop\v1.0.0.06):	Status_WL = tunSpectrum_WL_High_DWDM(channel,data,m_WLDac_normal);
+Function.c (c:\users\ybc\desktop\v1.0.0.06):BOOL tunSpectrum_WL_High_DWDM(int channel, struct struTestData *data, int tekVlue)
+Function.h (c:\users\ybc\desktop\v1.0.0.06):BOOL tunSpectrum_WL_High_DWDM(int channel, struct struTestData *data, int tekVlue);

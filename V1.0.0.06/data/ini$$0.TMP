@@ -1,0 +1,18 @@
+[Configuration Set]
+PNIndex = 6
+PN = "SOEX6277-XSGB-DM"
+Fun_Tun_1G = False
+Fun_Tun_1GRX = False
+Fun_Tun_10G = True
+Fun_Test_1G = False
+Fun_Test_10G = False
+Fun_Test_10GRX = False
+Fun_QATest_1G = False
+Fun_QATest_10G = False
+Temper_Low = False
+Temper_Room = True
+Temper_High = False
+Sens_Real = False
+APD_Aging = False
+Tun_Rx_Dis = False
+

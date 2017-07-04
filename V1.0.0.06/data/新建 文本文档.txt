@@ -1,0 +1,18 @@
+if      (stricmp (chipname, "ADUC7020") ==0){my_struConfig.ChiefChip_TYPE=CHIEFCHIP_ADUC7020;}	   
+	else if (stricmp (chipname, "DS1856") ==0) 	{my_struConfig.ChiefChip_TYPE=CHIEFCHIP_DS1856;} 
+	else if (stricmp (chipname, "MEGA88") ==0) 	{my_struConfig.ChiefChip_TYPE=CHIEFCHIP_MEGA88;}
+	else if (stricmp (chipname, "TINY13") ==0) 	{my_struConfig.ChiefChip_TYPE=CHIEFCHIP_TINY13;} 
+	else if (stricmp (chipname, "ADUC7023") ==0){my_struConfig.ChiefChip_TYPE=CHIEFCHIP_ADUC7023;} 
+	else {MessagePopup ("提示", "数据库AutoDT_Spec_ERCompens表中定义的ERCompensChip不能识别"); return -1;} 
+
+	if 		(stricmp (driverchip, "MAX3738")==0)	{my_struConfig.DriverChip_TYPE=DRIVERCHIP_MAX3738;} 
+	else if (stricmp (driverchip, "MAX3656") ==0){my_struConfig.DriverChip_TYPE=DRIVERCHIP_MAX3656;} 
+	else if (stricmp (driverchip, "VSC7965") ==0){my_struConfig.DriverChip_TYPE=DRIVERCHIP_VSC7965;} 
+	else if (stricmp (driverchip, "VSC7967") ==0){my_struConfig.DriverChip_TYPE=DRIVERCHIP_VSC7967;} 
+	else if (stricmp (driverchip, "UX2222") ==0) {my_struConfig.DriverChip_TYPE=DRIVERCHIP_UX2222;}
+	else if (stricmp (driverchip, "UX2228") ==0) {my_struConfig.DriverChip_TYPE=DRIVERCHIP_UX2228;}  
+	else if (stricmp (driverchip, "GN2010") ==0) {my_struConfig.DriverChip_TYPE=DRIVERCHIP_GN2010;}  
+	else if (stricmp (driverchip, "NT22L33") ==0) {my_struConfig.DriverChip_TYPE=DRIVERCHIP_NT22L33;}
+	else if (stricmp (driverchip, "NT25L90") ==0) {my_struConfig.DriverChip_TYPE=DRIVERCHIP_NT25L90;}  
+	else {MessagePopup ("提示", "数据库AutoDT_Spec_ERCompens表中定义的DriverChip不能识别"); return -1;} 
+	
